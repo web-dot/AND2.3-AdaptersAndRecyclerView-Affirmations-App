@@ -5,7 +5,7 @@ import com.example.affirmations.model.Affirmation
 
 class Datasource {
     fun loadAffirmations(): List<Affirmation>{
-        // creating a list of Affirmation, by passing string resource ID in the constructor
+        // creating a list of Affirmation objects, by passing string resource ID in the constructor
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1),
             Affirmation(R.string.affirmation2),
